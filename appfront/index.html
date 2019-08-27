@@ -68,10 +68,10 @@
 		border-radius:0 2px 2px 0;
 	}
 
-	nav.home .home,
-	nav.projects .projects,
-	nav.services .services,
-	nav.contact .contact{
+	nav.实时进站 .实时进站,
+	nav.实时出站 .实时出站,
+	nav.滞留数据 .滞留数据,
+	nav.数据分析 .数据分析{
 		background-color:#e35885;
 	}
 
@@ -105,10 +105,10 @@
 
 		<!-- 当菜单上的链接被点击时，我们调用了 makeActive 方法, 该方法在 Vue 实例中创建。 -->
 
-		<a href="#" class="home" v-on:click="makeActive('home')">Home</a>
-		<a href="#" class="projects" v-on:click="makeActive('projects')">Projects</a>
-		<a href="#" class="services" v-on:click="makeActive('services')">Services</a>
-		<a href="#" class="contact" v-on:click="makeActive('contact')">Contact</a>
+		<a href="#" class="实时进站" v-on:click="makeActive('实时进站')">实时进站</a>
+		<a href="#" class="实时出站" v-on:click="makeActive('实时出站')">实时出站</a>
+		<a href="#" class="滞留数据" v-on:click="makeActive('滞留数据')">滞留数据</a>
+		<a href="#" class="数据分析" v-on:click="makeActive('数据分析')">数据分析</a>
 	</nav>
 
  	<!-- 以下 "active" 变量会根据当前选中的值来自动变换 -->
@@ -124,7 +124,7 @@ var demo = new Vue({
 
 	// 定义属性，并设置初始值
 	data: {
-		active: 'home'
+		active: '实时进站'
 	},
 
 	// 点击菜单使用的函数
