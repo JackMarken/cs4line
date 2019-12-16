@@ -2,201 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71d2436-d3e3-46f9-9e90-58fa8d31e358" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/check-versions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/dev-client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/dev-server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/vue-loader.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/webpack.dev.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/build/webpack.prod.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/config/dev.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/config/prod.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/api/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/alert.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/badge.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/breadcrumb-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/breadcrumb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/button-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/carousel-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/cascader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/checkbox-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/col.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/collapse-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/collapse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/color-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/date-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dropdown-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dropdown-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dropdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/fonts/element-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/form-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/input-number.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/loading.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/menu-item-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/menu-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/message-box.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/message.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/notification.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/option-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/option.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/popover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/progress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/radio-button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/radio-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/radio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/rate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/row.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/select-dropdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/step.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/submenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tab-pane.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/table-column.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tag.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/time-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/time-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/upload.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/alert.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/badge.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/breadcrumb-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/breadcrumb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/button-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/carousel-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/cascader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/checkbox-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/col.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/collapse-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/collapse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/color-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/date-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dropdown-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dropdown-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dropdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/fonts/element-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/form-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/input-number.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/loading.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/menu-item-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/menu-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/message-box.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/message.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/notification.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/option-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/option.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/popover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/progress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/radio-button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/radio-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/radio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/rate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/row.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/select-dropdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/step.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/submenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tab-pane.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/table-column.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tag.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/time-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/time-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/upload.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/assets/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/common/js/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/components/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/mock/data/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/mock/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/mock/mock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/styles/vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/Main.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/charts/echarts.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav1/Form.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav1/Table.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav1/user.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav2/Page4.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav2/Page5.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav3/Page6.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/vuex/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/vuex/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/src/vuex/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/nightwatch.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/runner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/specs/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/test/unit/jest.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/test/unit/setup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appfront/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -274,31 +80,6 @@
             </path>
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -320,11 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\frontend\src" />
       <recent name="D:\myproject\templates" />
       <recent name="D:\myproject\appfront" />
       <recent name="D:\myproject\appfront\src" />
       <recent name="D:\myproject\appfront\config" />
-      <recent name="D:\myproject\appfront\build" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -426,7 +207,7 @@
       <workItem from="1576224912044" duration="639000" />
       <workItem from="1576457203059" duration="66000" />
       <workItem from="1576460916673" duration="619000" />
-      <workItem from="1576465543336" duration="4243000" />
+      <workItem from="1576465543336" duration="5870000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1575873781783</created>
@@ -446,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70104000" />
+    <option name="totallyTimeSpent" value="71731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,9 +239,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="121" width="1036" height="570" extended-state="0" />
+    <frame x="88" y="121" width="1036" height="570" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38343558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38343558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -474,7 +255,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32677165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016639" side_tool="true" weight="0.32283464" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4983361" visible="true" weight="0.2739726" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4983361" visible="true" weight="0.2739726" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
