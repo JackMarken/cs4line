@@ -2,9 +2,201 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71d2436-d3e3-46f9-9e90-58fa8d31e358" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/dev-client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/api/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/logo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/alert.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/badge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/breadcrumb-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/button-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/carousel-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/cascader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/checkbox-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/col.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/collapse-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/collapse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/color-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/date-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dropdown-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dropdown-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/form-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/input-number.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/menu-item-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/menu-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/message-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/notification.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/option-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/option.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/popover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/progress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/radio-button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/radio-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/radio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/rate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/select-dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/step.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/steps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/submenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tab-pane.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/table-column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/time-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/time-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-darkblue/upload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/alert.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/badge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/breadcrumb-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/button-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/carousel-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/cascader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/checkbox-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/col.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/collapse-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/collapse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/color-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/date-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dropdown-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dropdown-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/form-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/input-number.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/menu-item-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/menu-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/message-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/notification.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/option-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/option.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/popover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/progress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/radio-button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/radio-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/radio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/rate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/row.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/select-dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/step.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/steps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/submenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tab-pane.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/table-column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/time-picker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/time-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/theme/theme-green/upload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/assets/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/common/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/components/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/mock/data/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/mock/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/mock/mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/styles/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/404.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/Main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/charts/echarts.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav1/Form.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav1/Table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav1/user.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav2/Page4.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav2/Page5.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/views/nav3/Page6.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/vuex/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/vuex/getters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/src/vuex/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/nightwatch.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/test/e2e/specs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/test/unit/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/test/unit/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appfront/test/unit/specs/HelloWorld.spec.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,46 +210,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+        <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="912">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/settings.py">
+        <entry file="file://$PROJECT_DIR$/frontend/src/api/api.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/template/loader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -82,15 +247,17 @@
         <option value="$PROJECT_DIR$/appfront/config/index.js" />
         <option value="$PROJECT_DIR$/appfront/build/webpack.prod.conf.js" />
         <option value="$PROJECT_DIR$/appfront/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/myproject/urls.py" />
         <option value="$PROJECT_DIR$/myproject/settings.py" />
+        <option value="$PROJECT_DIR$/frontend/src/App.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="12" />
-    <option name="width" value="1890" />
-    <option name="height" value="960" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="132" />
+    <option name="y" value="181" />
+    <option name="width" value="1554" />
+    <option name="height" value="855" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,7 +275,27 @@
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
@@ -124,19 +311,20 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\templates" />
       <recent name="D:\myproject\appfront" />
       <recent name="D:\myproject\appfront\src" />
       <recent name="D:\myproject\appfront\config" />
       <recent name="D:\myproject\appfront\build" />
-      <recent name="D:\myproject" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,7 +419,14 @@
       <workItem from="1575537794760" duration="1831000" />
       <workItem from="1575872673878" duration="560000" />
       <workItem from="1575873284933" duration="151000" />
-      <workItem from="1575873487918" duration="1905000" />
+      <workItem from="1575873487918" duration="6854000" />
+      <workItem from="1575962816938" duration="6562000" />
+      <workItem from="1576220909951" duration="354000" />
+      <workItem from="1576224595209" duration="8000" />
+      <workItem from="1576224912044" duration="639000" />
+      <workItem from="1576457203059" duration="66000" />
+      <workItem from="1576460916673" duration="619000" />
+      <workItem from="1576465543336" duration="4243000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1575873781783</created>
@@ -240,11 +435,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575873781783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交templates">
+      <created>1575876466966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575876466966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52664000" />
+    <option name="totallyTimeSpent" value="70104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,15 +458,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="8" width="1260" height="640" extended-state="1" />
-    <editor active="true" />
+    <frame x="88" y="121" width="1036" height="570" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.359401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38343558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.26771653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.26712328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,8 +473,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32677165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.330373" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32283464" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016639" side_tool="true" weight="0.32283464" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4983361" visible="true" weight="0.2739726" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -310,13 +511,28 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/vue-route/vue-2.0-simple-routing-example" />
     </ignored-roots>
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="提交templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交templates" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myapp/migrations/0001_initial.py">
@@ -344,152 +560,26 @@
     <entry file="file://$PROJECT_DIR$/appfront/src/components/Home.vue" />
     <entry file="file://$PROJECT_DIR$/appfront/src/components/HelloWorld.vue" />
     <entry file="file://$PROJECT_DIR$/appfront/build/logo.png" />
-    <entry file="file://$PROJECT_DIR$/appfront/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/src/views/nav1/Form.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/build/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/build/dev-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/build/check-versions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-623">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/build/dev-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/src/views/Main.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appfront/src/assets/logo.png" />
+    <entry file="file://$PROJECT_DIR$/appfront/src/views/nav1/Form.vue" />
+    <entry file="file://$PROJECT_DIR$/appfront/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/appfront/package.json" />
+    <entry file="file://$PROJECT_DIR$/appfront/build/webpack.dev.conf.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/build/dev-client.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/build/check-versions.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/build/build.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/build/dev-server.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/src/routes.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/src/views/Main.vue" />
+    <entry file="file://$PROJECT_DIR$/appfront/src/views/Home.vue" />
     <entry file="file://$PROJECT_DIR$/appfront/src/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/appfront/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/build/webpack.prod.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appfront/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/appfront/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/appfront/build/webpack.prod.conf.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/config/index.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/build/webpack.base.conf.js" />
+    <entry file="file://$PROJECT_DIR$/appfront/index.html" />
     <entry file="file://$PROJECT_DIR$/myproject/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -497,20 +587,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/src/views/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appfront/src/App.vue" />
+    <entry file="file://$PROJECT_DIR$/appfront/src/views/Login.vue" />
     <entry file="file://$PROJECT_DIR$/myapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -521,38 +599,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/urls.py">
+    <entry file="file://$PROJECT_DIR$/appfront/config/dev.env.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/template/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="152">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="9">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/template/loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="38">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#643#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
